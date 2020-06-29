@@ -1,0 +1,15 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+// 10px is our requirement. Browser by default has 16px font-size. We can get our req value in terms of %,as 10/16 = 0.625.
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
