@@ -8,6 +8,10 @@ import pic2 from "./assests/nat-2-large.jpg";
 import pic3 from "./assests/nat-3-large.jpg";
 import world from "./assests/travel.svg";
 import nature from "./assests/eco-friendly.svg";
+import review1 from "./assests/nat-8.jpg";
+import review2 from "./assests/nat-9.jpg";
+import videoMp4 from "./assests/video.mp4";
+import videoWebm from "./assests/video.webm";
 //import successNoColor from "./assests/success-no-color.svg";
 import success from "./assests/success.svg";
 import heart from "./assests/heart.svg";
@@ -271,6 +275,78 @@ class App extends React.Component {
             <div className="u-center-text u-margin-top-huge">
               <a href="#" className="btn btn--green">
                 Discover all tours
+              </a>
+            </div>
+          </section>
+
+          <section className="section-stories">
+            <div className="bg-video">
+              <video className="bg-video__content" autoPlay muted loop>
+                <source src={videoMp4} type="video/mp4" />
+                <source src={videoWebm} type="video/webm" />
+                Your browser is not supported
+              </video>
+            </div>
+            <div className="u-center-text u-margin-bottom-big">
+              <h2 className="heading-secondary">
+                We make people genuinely happy
+              </h2>
+            </div>
+
+            <div className="row">
+              <div className="story">
+                <figure className="story__shape">
+                  <img
+                    src={review1}
+                    alt="person on a tour"
+                    className="story__img"
+                  />
+                  <figcaption className="story__caption">Mary Smith</figcaption>
+                </figure>
+                <div className="story__text">
+                  <h3 className="heading-tertiary u-margin-bottom-small">
+                    I had best week ever with my family
+                  </h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Do eiusmod tempor incididunt ut labore et
+                    dolore magna
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="story">
+                <figure className="story__shape">
+                  <img
+                    src={review2}
+                    alt="person on a tour"
+                    className="story__img"
+                  />
+                  <figcaption className="story__caption">
+                    Jack Wilson
+                  </figcaption>
+                </figure>
+                <div className="story__text">
+                  <h3 className="heading-tertiary u-margin-bottom-small">
+                    WOW! My life is completely different now
+                  </h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="u-center-text u-margin-top-huge">
+              <a href="#" className="btn-text">
+                Read all stories &rarr;
               </a>
             </div>
           </section>
