@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
@@ -5,6 +6,11 @@ import logo from "./assests/logo-white.png";
 import pic1 from "./assests/nat-1-large.jpg";
 import pic2 from "./assests/nat-2-large.jpg";
 import pic3 from "./assests/nat-3-large.jpg";
+import world from "./assests/travel.svg";
+import nature from "./assests/eco-friendly.svg";
+//import successNoColor from "./assests/success-no-color.svg";
+import success from "./assests/success.svg";
+import heart from "./assests/heart.svg";
 
 class App extends React.Component {
   render() {
@@ -74,6 +80,85 @@ class App extends React.Component {
                     alt="picture 3"
                     className="composition__photo composition__photo--p3"
                   ></img>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section className="section-features">
+            <div className="row">
+              <div className="col-1-of-4">
+                <div className="feature-box">
+                  <img
+                    src={world}
+                    alt="feature logo1"
+                    className="feature-box__icon"
+                  ></img>
+                  {/* <i className="feature-box__icon icon-basic-world"></i> */}
+                  <h3 className="heading-tertiary u-margin-bottom-small">
+                    Explore the world
+                  </h3>
+                  <p className="feature-box__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-1-of-4">
+                <div className="feature-box">
+                  <img
+                    src={nature}
+                    alt="feature logo1"
+                    className="feature-box__icon"
+                  ></img>
+                  {/* <i className="feature-box__icon icon-basic-world"></i> */}
+                  <h3 className="heading-tertiary u-margin-bottom-small">
+                    Meet nature
+                  </h3>
+                  <p className="feature-box__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-1-of-4">
+                <div className="feature-box">
+                  <img
+                    src={success}
+                    alt="feature logo1"
+                    className="feature-box__icon"
+                  ></img>
+                  {/* <i className="feature-box__icon icon-basic-world"></i> */}
+                  <h3 className="heading-tertiary u-margin-bottom-small">
+                    Find your way
+                  </h3>
+                  <p className="feature-box__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-1-of-4">
+                <div className="feature-box">
+                  <img
+                    src={heart}
+                    alt="feature logo1"
+                    className="feature-box__icon"
+                  ></img>
+                  {/* <i className="feature-box__icon icon-basic-world"></i> */}
+                  <h3 className="heading-tertiary u-margin-bottom-small">
+                    Live a healthier life
+                  </h3>
+                  <p className="feature-box__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
                 </div>
               </div>
             </div>
