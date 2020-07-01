@@ -22,11 +22,12 @@
             opacity: 0;
         }
     }
-    &:active,
-    &:focus {
-        outline: none;
+    &:active {
         transform: translateY(-0.1rem);
         box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
+    }
+    &__submit:focus {
+        outline: none;
     }
     &--white {
         background-color: $color-white;

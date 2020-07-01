@@ -12,6 +12,7 @@ import review1 from "./assests/nat-8.jpg";
 import review2 from "./assests/nat-9.jpg";
 import videoMp4 from "./assests/video.mp4";
 import videoWebm from "./assests/video.webm";
+import flogo from "./assests/logo-green-2x.png";
 //import successNoColor from "./assests/success-no-color.svg";
 import success from "./assests/success.svg";
 import heart from "./assests/heart.svg";
@@ -412,7 +413,7 @@ class App extends React.Component {
                       </div>
                     </div>
                     <div className="form__group">
-                      <button className="btn btn--green">
+                      <button className="btn btn--green btn__submit">
                         Next step &rarr;
                       </button>
                     </div>
@@ -422,6 +423,52 @@ class App extends React.Component {
             </div>
           </section>
         </main>
+
+        <footer className="footer">
+          <div className="footer__logo-box">
+            <img src={flogo} alt="full logo" className="footer__logo" />
+          </div>
+          <div className="row">
+            <div className="col-1-of-2">
+              <div className="footer__navigation">
+                <ul className="footer__list">
+                  <li className="footer__item">
+                    <a href="#" className="footer__link">
+                      Company
+                    </a>
+                  </li>
+
+                  <li className="footer__item">
+                    <a href="#" className="footer__link">
+                      Contact us
+                    </a>
+                  </li>
+                  <li className="footer__item">
+                    <a href="#" className="footer__link">
+                      Careers
+                    </a>
+                  </li>
+                  <li className="footer__item">
+                    <a href="#" className="footer__link">
+                      Privacy policy
+                    </a>
+                  </li>
+                  <li className="footer__item">
+                    <a href="#" className="footer__link">
+                      Terms
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-1-of-2">
+              <p className="footer__copyright">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+          </div>
+        </footer>
       </div>
     );
   }
