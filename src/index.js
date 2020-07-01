@@ -355,7 +355,7 @@ class App extends React.Component {
             <div className="row">
               <div className="book">
                 <div className="book__form">
-                  <form action="#" className="form">
+                  <form action="#" className="form" autoComplete="off">
                     <div className="u-margin-bottom-medium">
                       <h2 className="heading-secondary">Start booking now</h2>
                     </div>
@@ -363,12 +363,12 @@ class App extends React.Component {
                       <input
                         type="text"
                         className="form__input"
-                        placeholder="Full Name"
+                        placeholder="Full name"
                         id="name"
                         required
                       />
-                      <label htmlFor="name" className="form_label">
-                        Full Name
+                      <label htmlFor="name" className="form__label">
+                        Full name
                       </label>
                     </div>
 
@@ -380,8 +380,8 @@ class App extends React.Component {
                         id="email"
                         required
                       />
-                      <label htmlFor="email" className="form_label">
-                        Email Address
+                      <label htmlFor="email" className="form__label">
+                        Email address
                       </label>
                     </div>
                   </form>
