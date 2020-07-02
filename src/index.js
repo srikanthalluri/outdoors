@@ -74,7 +74,7 @@ class App extends React.Component {
                 is where life happens
               </span>
             </h1>
-            <a href="#" className="btn btn--white btn--animated">
+            <a href="#section-tours" className="btn btn--white btn--animated">
               Discover our tours
             </a>
           </div>
@@ -211,7 +211,7 @@ class App extends React.Component {
             </div>
           </section>
 
-          <section className="section-tours">
+          <section className="section-tours" id="section-tours">
             <div className="u-center-text u-margin-bottom-big">
               <h1 className="heading-secondary">most popular tours</h1>
             </div>
@@ -242,7 +242,7 @@ class App extends React.Component {
                         <p className="card__price-only">Only</p>
                         <p className="card__price-value">$297</p>
                       </div>
-                      <a href="#" className="btn btn--white">
+                      <a href="#popup" className="btn btn--white">
                         Book now!
                       </a>
                     </div>
@@ -274,7 +274,7 @@ class App extends React.Component {
                         <p className="card__price-only">Only</p>
                         <p className="card__price-value">$497</p>
                       </div>
-                      <a href="#" className="btn btn--white">
+                      <a href="#popup" className="btn btn--white">
                         Book now!
                       </a>
                     </div>
@@ -306,7 +306,7 @@ class App extends React.Component {
                         <p className="card__price-only">Only</p>
                         <p className="card__price-value">$897</p>
                       </div>
-                      <a href="#" className="btn btn--white">
+                      <a href="#popup" className="btn btn--white">
                         Book now!
                       </a>
                     </div>
@@ -511,6 +511,42 @@ class App extends React.Component {
             </div>
           </div>
         </footer>
+
+        <div className="popup" id="popup">
+          <div className="popup__content">
+            <div className="popup__left">
+              <img src={review1} alt="Tour photo" className="popup__img" />
+              <img src={review2} alt="Tour photo" className="popup__img" />
+            </div>
+            <div className="popup__right">
+              <a href="#section-tours" className="popup__close">
+                &times;
+              </a>
+              <h2 className="heading-secondary u-margin-bottom-small">
+                Start booking now
+              </h2>
+              <h3 className="heading-tertiary u-margin-bottom-small">
+                Important &ndashl; Please read these terms before booking
+              </h3>
+              <p className="popup__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Augue ut lectus arcu bibendum at. Diam vel quam elementum
+                pulvinar etiam. Nunc id cursus metus aliquam. Pellentesque sit
+                amet porttitor eget dolor. Proin libero nunc consequat interdum
+                varius sit amet mattis vulputate. Mattis vulputate enim nulla
+                aliquet. Ullamcorper sit amet risus nullam eget felis eget.
+                Consequat interdum varius sit amet mattis vulputate enim.
+                Blandit aliquam etiam erat velit scelerisque in dictum. Vivamus
+                arcu felis bibendum ut. Nulla facilisi nullam vehicula ipsum a
+                arcu cursus.
+              </p>
+              <a href="#" className="btn btn--green">
+                Book now
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
