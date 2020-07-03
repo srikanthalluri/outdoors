@@ -12,7 +12,10 @@ import review1 from "./assests/nat-8.jpg";
 import review2 from "./assests/nat-9.jpg";
 import videoMp4 from "./assests/video.mp4";
 import videoWebm from "./assests/video.webm";
-import flogo from "./assests/logo-green-2x.png";
+import highres from "./assests/logo-green-2x.png";
+import lowres from "./assests/logo-green-1x.png";
+import lowresSmall from "./assests/logo-green-small-1x.png";
+import highresSmall from "./assests/logo-green-small-2x.png";
 //import successNoColor from "./assests/success-no-color.svg";
 import success from "./assests/success.svg";
 import heart from "./assests/heart.svg";
@@ -468,7 +471,13 @@ class App extends React.Component {
 
         <footer className="footer">
           <div className="footer__logo-box">
-            <img src={flogo} alt="full logo" className="footer__logo" />
+            <picture className="footer__logo">
+              <source
+                srcSet={`${lowresSmall} 1x, ${highresSmall} 2x`}
+                media="(max-width: 37.5em)"
+              />
+              <img srcSet={`${lowres} 1x, ${highres} 2x`} alt="full logo" />
+            </picture>
           </div>
           <div className="row">
             <div className="col-1-of-2">
