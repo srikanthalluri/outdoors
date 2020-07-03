@@ -3,9 +3,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import logo from "./assests/logo-white.png";
-import pic1 from "./assests/nat-1-large.jpg";
-import pic2 from "./assests/nat-2-large.jpg";
-import pic3 from "./assests/nat-3-large.jpg";
+import pic1 from "./assests/nat-1.jpg";
+import pic2 from "./assests/nat-2.jpg";
+import pic3 from "./assests/nat-3.jpg";
+import piclarge1 from "./assests/nat-1-large.jpg";
+import piclarge2 from "./assests/nat-2-large.jpg";
+import piclarge3 from "./assests/nat-3-large.jpg";
 import world from "./assests/travel.svg";
 import nature from "./assests/eco-friendly.svg";
 import review1 from "./assests/nat-8.jpg";
@@ -116,6 +119,29 @@ class App extends React.Component {
               <div className="col-1-of-2">
                 <div className="composition">
                   <img
+                    srcSet={`${pic1} 300w, ${piclarge1} 1000w`}
+                    sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                    alt="Photo 1"
+                    className="composition__photo composition__photo--p1"
+                    src={piclarge1}
+                  />
+
+                  <img
+                    srcSet={`${pic2} 300w, ${piclarge2} 1000w`}
+                    sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                    alt="Photo 2"
+                    className="composition__photo composition__photo--p2"
+                    src={piclarge2}
+                  />
+
+                  <img
+                    srcSet={`${pic3} 300w, ${piclarge3} 1000w`}
+                    sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                    alt="Photo 3"
+                    className="composition__photo composition__photo--p3"
+                    src={piclarge3}
+                  />
+                  {/* <img
                     src={pic1}
                     alt="picture 1"
                     className="composition__photo composition__photo--p1"
@@ -129,7 +155,7 @@ class App extends React.Component {
                     src={pic3}
                     alt="picture 3"
                     className="composition__photo composition__photo--p3"
-                  ></img>
+                  ></img> */}
                 </div>
               </div>
             </div>
@@ -476,7 +502,11 @@ class App extends React.Component {
                 srcSet={`${lowresSmall} 1x, ${highresSmall} 2x`}
                 media="(max-width: 37.5em)"
               />
-              <img srcSet={`${lowres} 1x, ${highres} 2x`} alt="full logo" />
+              <img
+                srcSet={`${lowres} 1x, ${highres} 2x`}
+                alt="full logo"
+                src={highres}
+              />
             </picture>
           </div>
           <div className="row">
