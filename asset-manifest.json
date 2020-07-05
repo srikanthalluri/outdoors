@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/outdoors/static/css/main.b16d3e63.chunk.css",
+    "main.js": "/outdoors/static/js/main.a56c625a.chunk.js",
+    "main.js.map": "/outdoors/static/js/main.a56c625a.chunk.js.map",
+    "runtime-main.js": "/outdoors/static/js/runtime-main.dc992a45.js",
+    "runtime-main.js.map": "/outdoors/static/js/runtime-main.dc992a45.js.map",
+    "static/js/2.6be9afc5.chunk.js": "/outdoors/static/js/2.6be9afc5.chunk.js",
+    "static/js/2.6be9afc5.chunk.js.map": "/outdoors/static/js/2.6be9afc5.chunk.js.map",
+    "index.html": "/outdoors/index.html",
+    "precache-manifest.65f42474bb99a8a3a00ac1088487fbdd.js": "/outdoors/precache-manifest.65f42474bb99a8a3a00ac1088487fbdd.js",
+    "service-worker.js": "/outdoors/service-worker.js",
+    "static/css/main.b16d3e63.chunk.css.map": "/outdoors/static/css/main.b16d3e63.chunk.css.map",
+    "static/js/2.6be9afc5.chunk.js.LICENSE.txt": "/outdoors/static/js/2.6be9afc5.chunk.js.LICENSE.txt",
+    "static/media/eco-friendly.svg": "/outdoors/static/media/eco-friendly.f29dce88.svg",
+    "static/media/heart.svg": "/outdoors/static/media/heart.70ebbcd1.svg",
+    "static/media/index.css": "/outdoors/static/media/nat-7.5f846d16.jpg",
+    "static/media/logo-green-1x.png": "/outdoors/static/media/logo-green-1x.4c42c11f.png",
+    "static/media/logo-green-2x.png": "/outdoors/static/media/logo-green-2x.3365abba.png",
+    "static/media/logo-green-small-2x.png": "/outdoors/static/media/logo-green-small-2x.888043d5.png",
+    "static/media/logo-white.png": "/outdoors/static/media/logo-white.40d4ef82.png",
+    "static/media/nat-1-large.jpg": "/outdoors/static/media/nat-1-large.7fdf2a88.jpg",
+    "static/media/nat-1.jpg": "/outdoors/static/media/nat-1.d6c15bf0.jpg",
+    "static/media/nat-2-large.jpg": "/outdoors/static/media/nat-2-large.7a25f199.jpg",
+    "static/media/nat-2.jpg": "/outdoors/static/media/nat-2.4d378368.jpg",
+    "static/media/nat-3-large.jpg": "/outdoors/static/media/nat-3-large.417d3d74.jpg",
+    "static/media/nat-3.jpg": "/outdoors/static/media/nat-3.cc2b0543.jpg",
+    "static/media/nat-8.jpg": "/outdoors/static/media/nat-8.14efd82b.jpg",
+    "static/media/nat-9.jpg": "/outdoors/static/media/nat-9.b525a99b.jpg",
+    "static/media/success.svg": "/outdoors/static/media/success.31507968.svg",
+    "static/media/travel.svg": "/outdoors/static/media/travel.951e1682.svg",
+    "static/media/video.webm": "/outdoors/static/media/video.f556a2c3.webm",
+    "static/media/video.mp4": "/outdoors/static/media/video.ffcd876c.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dc992a45.js",
+    "static/js/2.6be9afc5.chunk.js",
+    "static/css/main.b16d3e63.chunk.css",
+    "static/js/main.a56c625a.chunk.js"
+  ]
+}
